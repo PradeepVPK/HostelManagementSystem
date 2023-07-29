@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+
+.logout{
+position: fixed;
+right: 3%;
+top:3%;
+}
+label {
+	padding-bottom:5px;
+	font-size:25px;
+	display: inline-block;
+	width: 250px;
+	color: #808080;
+	margin:  auto;
+}
+form {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === HEADING STYLE #5 === */
+ h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700; color:#202020;
+  text-transform: uppercase;
+  word-spacing: 1px; letter-spacing:2px;
+}
+ h1 span {
+  margin-top: 40px;
+  text-transform: none;
+  font-size:.75em;
+  font-weight: normal;
+  font-style: italic; font-family: "Playfair Display","Bookman",serif;
+  color:#999; letter-spacing:-0.005em; word-spacing:1px;
+  letter-spacing:none;
+}
+ h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 38px;
+  width: 60px;
+  height: 4px;
+  content: "";
+  left: 50%;
+  margin-left: -30px;
+  background-color: #dfdfdf;
+}
+
+
+h2 {
+	text-align:center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h3 {
+	text-align:center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+h4 {
+	text-align:center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Won't be used here */
+
+h5 {
+	text-align:center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h6 {
+	text-align:center;
+    font-size: 12px;
+    line-height: 20px;
+}
+textarea,select, input[type=date] ,input[type=text] ,legend{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  margin-bottom:25px;
+  margin-left: 40%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.success {
+  color: green;
+  font-size: 12px;
+  margin-top: 4px;
+}
